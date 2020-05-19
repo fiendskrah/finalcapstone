@@ -14,8 +14,7 @@ data only at the individual school level, will need to be averaged, incorporated
 
 *Students are classified as “low income” based on if they qualify for free or reduced-price meals (FRPM). In many cases, students are determined FRPM-eligible through an application process sent to students’ households. If a household’s income is below 185 percent of the federal poverty line ($43,568 for a family of four), the student is eligible for FRPM. In other cases, students are directly certified as FRPM-eligible due to participation in other social service programs, such as the California Work Opportunity and Responsibility to Kids program. Foster youth automatically are eligible for FRPM, therefore the foster family’s income has no bearing on the foster student’s FRPM eligibility*
 
-Application based process suggests that undocumented students will be missed due to fear around providing information to government
-Can make differentiation between 'Free' and 'free and reduced lunch' in terms of poverty vs extreme poverty.
+*Application based process suggests that undocumented students will be missed due to fear around providing information to government - verify with census data? Can make differentiation between 'Free' and 'free and reduced lunch' in terms of poverty vs extreme poverty - sclice both.*
 
 ### 3) Sort lcff funding data
 [File location and information](https://ias.cde.ca.gov/lcffsnapshot/lcff.aspx)
