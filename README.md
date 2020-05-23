@@ -20,11 +20,14 @@ data only at the individual school level, will need to be averaged, incorporated
 [File location and information](https://ias.cde.ca.gov/lcffsnapshot/lcff.aspx)
 the lcff dataframe has a number of issues. There are more entries in the lcff DF than in the district GDF we want to merge it with. The county code number is not consistent with FIPS codes, ruling it out as a shared 'merging' collumn. We might be able to use the Local Educational Agency or the District Code. Additionally, there are several funding sources in the lcff dataframe, we need to understand which are relevant to the study. 
 
+*What is 'Total LCFF Floor'?*
+
 *The base grant varies by grade level and is keyed to the average daily attendance (ADA) of students in four grade spans: K–3, 4–6, 7–8, and 9–12. K–3 and 9–12 receive additional funding to support smaller class sizes and career technical education (CTE).*
 
 *Primarily looking at three major grant sources: 'Base,' 'Supplemental,' and 'Concentration'. Also good to take 'Total' from this data source.*  
 
 *Unduplicated Pupil Count - students who are low income and/or ELL and/or foster youth, unduplicated. If many students in the district potentially fall into more than one of these groups, their disadvantages are compounded, and the district may have a greater need as a result.*
+
 
 ### 4) Incorporate all data into single geodata frame
 from the above steps into the school district geodataframe along with the census data from the geosnap module. (as a community?)
