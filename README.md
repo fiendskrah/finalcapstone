@@ -4,6 +4,26 @@
 ### 1) Create dictionary with perfomance data
 Both math and ela datasets have matching 'student group' columns to indicate the specified groups' performance in those categories. These datasets include district and school level data. We can slice the data down to the district level and combine the respective performance indicator `currstatus`, which is a measure of standard deviation? See the [ELA](https://www.cde.ca.gov/ta/ac/cm/ela18.asp) and [math](https://www.cde.ca.gov/ta/ac/cm/math18.asp) file layout.
 
+
+Analyze differences across groups within districts (using state totals as baseline)
+
+need at both county and district level
+dict = {studentgroup, 
+            currstatus, priorstatus, change, currdenom}
+   
+
+Performance variables 
+**Statewide**, 
+*currstatus*: with this indicator, we are looking at the average distance from Standard of students who took the Smarter Balanced summative assessment in ELA. 
+*currdenom*: number of students who took the assessment.
+*priorstatus*: last year's 'currstatus'.
+*change*: difference between this year's and last year's 'currstatus'
+*only group with adjusted scores due to lower participation rate is foster youth (curradjustment)*
+
+#### State level distribution for AY 18-19
+Highest groups are Asian (62.4), Filipino (44.0), multiple races (28.6), and white (27.7). All student's currstatus is -6. The groups determining the allocation of LCFF funding are English learners, homeless and foster youth, 
+
+
 ### 2) Incorporate FRPM data
 See the [2018-2019 file structure information](https://www.cde.ca.gov/ds/sd/sd/filessp.asp)
 data only at the individual school level, will need to be averaged, incorporated some other way. The purpose of including this data is because scholars/policy makers occasionally use it as a proxy for segregation indices, so we want to incorporate it in a way that will be comparable to the segregation indices provided by the PySAL segregation package.
@@ -19,6 +39,8 @@ data only at the individual school level, will need to be averaged, incorporated
 ### 3) Sort lcff funding data
 [File location and information](https://ias.cde.ca.gov/lcffsnapshot/lcff.aspx)
 the lcff dataframe has a number of issues. There are more entries in the lcff DF than in the district GDF we want to merge it with. The county code number is not consistent with FIPS codes, ruling it out as a shared 'merging' collumn. We might be able to use the Local Educational Agency or the District Code. Additionally, there are several funding sources in the lcff dataframe, we need to understand which are relevant to the study. 
+
+Unduplicated count of pupils who (1) are English learners, (2) meet income or categorical eligibility requirements for free or reduced-price meals under the National School Lunch Program, or (3) are foster youth. “Unduplicated count” means that each pupil is counted only once even if the pupil meets more than one of these criteria (EC sections 2574(b)(2) and 42238.02(b)(1)).
 
 *What is 'Total LCFF Floor'?*
 
