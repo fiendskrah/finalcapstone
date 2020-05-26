@@ -66,6 +66,14 @@ ___
 This project harmonizes funding data from the California Local Control Funding Formula (LCFF), Performance data from the California Education dashboard (english language arts and math), school district shapefiles, and census data. The purpose of this harmonization is to investigate the link between the enactment of LCFF and student achievement. Specifically, we seek to explain achievment gaps in historically segregated districts through the lack of funding provided by LCFF.
 
 **Data and Sources**
+#### English Language Arts and Math performance datasets
+These datasets include the 58 County Offices of Education. From [CDE's website](https://www.cde.ca.gov/re/sd/co/coes.asp):
+>County offices of education support school districts by performing tasks that can be done more efficiently and economically at the county level. County offices provide or help formulate new curricula, staff development and training programs, and instructional procedures; design business and personnel systems; and perform many other services to meet changing needs and requirements. When economic or technical conditions make county or regional services most appropriate for students, county offices provide a wide range of services, including special and vocational education, programs for youths at risk of failure, and instruction in juvenile detention facilities.
+Some COE's might reasonably perform testing for certain student groups, but for many of the COEs in this dataset, `currstatus` values are missing from many `studentgroup`. 
+We will remove COE's from our analysis
+
+#### LCFF dataset
+Unlike both performance datasets or the frpm dataset, the lcff dataset does not have a district or county name attribute, instead it uses a Local Eduational Agency.
 
 **Methods**
 
