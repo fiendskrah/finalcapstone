@@ -7,7 +7,7 @@
 
 Both math and ela datasets have matching `studentgroup` columns to indicate performance by those groups in math and English language arts. We can aggregate the data to the district level and use the performance indicator `currstatus`, which is a measure of deviation from the average student to evaluate lcff. 
 
-> deliverable: county and district dictionaries with the format: 
+> **deliverable**: county and district dictionaries with the format: 
 `dict = {studentgroup;`
     `currstatus, priorstatus, change, currdenom}`
 
@@ -16,10 +16,10 @@ from the above steps into the school district shapefile dataframe along with the
 
 
 3) Analysis
-   3a) evaluate performance of groups in a district in relation to that group's performance statewide. 
-> deliverable: district choropleth maps of deviation of performance by `studentgroup` in English language arts and math. 
-   3b) validate FRMP as a stand in for segregation
-   3c) evaluate equity of LCFF allocation through achievement gaps between districts (weigh with segregation)
+  * 3a) evaluate performance of groups in a district in relation to that group's performance statewide. 
+> **deliverable**: district choropleth maps of deviation of performance by `studentgroup` in English language arts and math. 
+  * 3b) validate FRMP as a stand in for segregation
+  * 3c) evaluate equity of LCFF allocation through achievement gaps between districts (weigh with segregation)
 
   
 
@@ -67,7 +67,7 @@ This project harmonizes funding data from the California Local Control Funding F
 
 **Data and Sources**
 
-*Methods**
+**Methods**
 
 **Findings**
 
