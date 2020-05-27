@@ -18,8 +18,8 @@ from the above steps into the school district shapefile dataframe along with the
 3) Analysis
   * 3a) evaluate performance of groups in a district in relation to that group's performance statewide. 
 > **deliverable**: district choropleth maps of deviation of performance by `studentgroup` in English language arts and math. 
-  * 3b) validate FRMP as a stand in for segregation
-  * 3c) evaluate equity of LCFF allocation through achievement gaps between districts (weigh with segregation)
+  * 3b) validate FRMP as a proxy for segregation
+  * 3c) evaluate equity of LCFF allocation through achievement gaps between districts (weigh with segregation + income)
 
   
 
@@ -62,24 +62,28 @@ If many students in the district potentially fall into more than one of these gr
 
 ___
 ## Paper Draft
-**Purpose**
+### Purpose
 This project harmonizes funding data from the California Local Control Funding Formula (LCFF), Performance data from the California Education dashboard (english language arts and math), school district shapefiles, and census data. The purpose of this harmonization is to investigate the link between the enactment of LCFF and student achievement. Specifically, we seek to explain achievment gaps in historically segregated districts through the lack of funding provided by LCFF.
 
-**Data and Sources**
+### Data and Sources
 #### English Language Arts and Math performance datasets
-These datasets include the 58 County Offices of Education. From [CDE's website](https://www.cde.ca.gov/re/sd/co/coes.asp):
+Key performance indicator: `currstatus`
+From [California Department of Eduation's website](https://www.cde.ca.gov/ta/tg/sa/sbacsummative.asp)
+>The Smarter Balanced Summative Assessments are comprehensive, end-of-year assessments for English language arts/literacy (ELA) and mathematics that are aligned with the Common Core State Standards (CCSS) for English language arts/literacy (ELA) and mathematics and measure progress toward college and career readiness. The tests capitalize on the strengths of computer adaptive testing—efficient and precise measurement across the full range of achievement and the timely turnaround of results.
+
+These datasets include the 58 County Offices of Education. From [California Department of Eduation's's website](https://www.cde.ca.gov/re/sd/co/coes.asp):
 >County offices of education support school districts by performing tasks that can be done more efficiently and economically at the county level. County offices provide or help formulate new curricula, staff development and training programs, and instructional procedures; design business and personnel systems; and perform many other services to meet changing needs and requirements. When economic or technical conditions make county or regional services most appropriate for students, county offices provide a wide range of services, including special and vocational education, programs for youths at risk of failure, and instruction in juvenile detention facilities.
 Some COE's might reasonably perform testing for certain student groups, but for many of the COEs in this dataset, `currstatus` values are missing from many `studentgroup`. 
-We will remove COE's from our analysis
+We remove COE's from our analysis
 
 #### LCFF dataset
 Unlike both performance datasets or the frpm dataset, the lcff dataset does not have a district or county name attribute, instead it uses a Local Eduational Agency.
 
-**Methods**
+### Methods
 
-**Findings**
+### Findings
 
 _State level performance distribution for AY 18-19_
 Highest groups are Asian (62.4), Filipino (44.0), multiple races (28.6), and white (27.7). All student's currstatus is -6. The groups determining the allocation of LCFF funding are English learners, homeless and foster youth, 
 
-**Discussion**
+### Discussion
