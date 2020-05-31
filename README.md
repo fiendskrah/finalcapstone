@@ -98,14 +98,20 @@ _Free and reduced meal distribution_
   - intention of lcff - where _should_ the money be going?
   - What factors contribute to increased student perfomance?
 
-- clarify questions and purpose
+- clarify research questions and purpose (and what led to the development of the question)
   - equity
   - cost effectiveness
+  - full funding of lcff (should we integrate previous data years?)
+  - illustration of funding mechanisms for schools (flow of money) 
   
 - methods
   - list and describe datasets and manipulation
   - segregation indices and frpm allignment
+  - context with other studies
 
 - delieverables 
   - legend is important
   - need key findings slide 
+  - layer map (ana/brian)
+  - continuity of breakdowns
+  - list of districts with unduplicated pupil counts (55-65, 45-55) + performance scores...regress
