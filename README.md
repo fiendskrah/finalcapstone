@@ -7,14 +7,11 @@
 
 Both math and ela datasets have matching `studentgroup` columns to indicate performance by those groups in math and English language arts. We can aggregate the data to the district level and use the performance indicator `currstatus`, which is a measure of deviation from the average student to evaluate lcff. 
 
-
-
-2) Incorporate all data into single geodataframe
-from the above steps into the school district shapefile dataframe along with the census data from the geosnap module. (as a community?)
-
+2) Incorporate all data 
+  - single geodataframe vs many geodataframes? need to properly nest attributess [`currstatus`, `priorstatus`, `change`] under each of the 17 `studentgroup` which is under each of the 850-900 `districtname`. 
 
 3) Analysis
-  * 3a) evaluate performance of groups in a district in relation to that group's performance statewide. 
+  * 3a) evaluate performance of groups in a district in relation to that group's performance statewide.
 
   * 3b) validate FRMP as a proxy for segregation
   * 3c) evaluate equity of LCFF allocation through achievement gaps between districts (weigh with segregation + income)
@@ -82,6 +79,9 @@ Unlike both performance datasets or the frpm dataset, the lcff dataset does not 
 
 ### Methods
 #### Data cleaning/synthesis
+Mathing attributes (`ela`, `math`, `lcff`, `frpm`) to shapefiles `adistricts`
+
+`adistricts` does not contain accurate FIPS codes used by the census, but one of three LEA identifiers for either elementary, secondary, or unified school district. the attribute data do not contain these LEA identifiers, but rather some variation of CDS (county, district, school) codes (which are different from FIPS codes as well), county names, district names, or school names. The matching proccess thus relied on inferred values being merged into each district.
 
 ### Findings
 
