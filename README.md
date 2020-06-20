@@ -1,7 +1,5 @@
 # State of Segregation in the SCAG Region
 
-![FRPM map](https://ibb.co/YXJzRqn)
-
 ## To Do / datawork
 1) Create _attribute dictionary(?)_ with **perfomance data**
 [`ela` file and layout](https://www.cde.ca.gov/ta/ac/cm/ela18.asp).
@@ -12,7 +10,7 @@ Both math and ela datasets have matching `studentgroup` columns to indicate perf
 2) Incorporate all data 
   - single geodataframe vs many geodataframes? need to properly nest attributess [`currstatus`, `priorstatus`, `change`] under each of the 17 `studentgroup` which is under each of the 850-900 `districtname`. 
 
-3) Analysis
+3) Analysisgit 
   * 3a) evaluate performance of groups in a district in relation to that group's performance statewide.
 
   * 3b) validate FRMP as a proxy for segregation
