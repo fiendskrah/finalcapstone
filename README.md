@@ -1,5 +1,7 @@
 # State of Segregation in the SCAG Region
 
+![FRPM map](https://ibb.co/YXJzRqn)
+
 ## To Do / datawork
 1) Create _attribute dictionary(?)_ with **perfomance data**
 [`ela` file and layout](https://www.cde.ca.gov/ta/ac/cm/ela18.asp).
@@ -90,6 +92,7 @@ _State level performance distribution for AY 18-19_
 
 _Free and reduced meal distribution_
 <br>
+
 ### Discussion
 
 ## Presentation notes
