@@ -10,6 +10,8 @@ Effectively, we found that the targetted student groups (english language learne
 ## Goal
 The next step is to incorporate regression discontinuity designs into this analysis. I want to narrow the sample population to pair districts that are most similar aside from their treatment variable. 
 
+>Pairing strategy: On a per-county basis, pick treatment districts by the UPC - between 0.55 and 0.65. These districts recieve a concentration grant. For each district 
+
 ### Geographic similarity
 Want to view districts within the same county. Can try to find pairs that are geographic neighbors (shared line) using geopandas.
 
