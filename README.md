@@ -21,3 +21,14 @@ Want to merge geometry data with demographic data. Does census data exist at the
 - % white
 - % latino/hispanic
 - income brackets
+
+
+
+git checkout output?
+
+>`$ git checkout new`
+>
+>`Switched to branch 'new'`
+>
+>`M       rdd.ipynb`
+

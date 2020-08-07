@@ -1,4 +1,4 @@
-,District Code,districtname,studentgroup,ela_currstatus,ela_priorstatus,ela_change,countyname
+,District Code,districtname,studentgroup,currstatus,priorstatus,change,countyname
 164,61119,Alameda Unified,african_american,-43.0,-48.7,5.7,Alameda
 165,61119,Alameda Unified,american_indian,-14.8,14.3,-29.1,Alameda
 166,61119,Alameda Unified,all_students,36.8,32.8,4.0,Alameda
@@ -8780,6 +8780,22 @@
 110948,75614,Valley Center-Pauma Unified,ses_disad,-53.1,-56.4,3.4,San Diego
 110949,75614,Valley Center-Pauma Unified,disabilities,-111.4,-111.4,0.0,San Diego
 110950,75614,Valley Center-Pauma Unified,white,15.7,9.4,6.4,San Diego
+111051,76471,SBC - High Tech High,african_american,5.9,-24.0,29.9,San Diego
+111052,76471,SBC - High Tech High,american_indian,18.8,-6.4,25.2,San Diego
+111053,76471,SBC - High Tech High,all_students,5.9,1.7,4.3,San Diego
+111054,76471,SBC - High Tech High,asian,81.8,51.7,30.1,San Diego
+111055,76471,SBC - High Tech High,english_learners,-48.4,-56.0,7.6,San Diego
+111056,76471,SBC - High Tech High,english_learners_only,-74.0,-91.8,17.8,San Diego
+111057,76471,SBC - High Tech High,english_only,21.1,16.7,4.3,San Diego
+111058,76471,SBC - High Tech High,filipino,45.2,26.9,18.2,San Diego
+111059,76471,SBC - High Tech High,hispanic,-13.5,-17.6,4.1,San Diego
+111060,76471,SBC - High Tech High,homeless_youth,,-39.4,,San Diego
+111061,76471,SBC - High Tech High,multiple_races,36.0,29.2,6.7,San Diego
+111062,76471,SBC - High Tech High,pacific_islander,,,,San Diego
+111063,76471,SBC - High Tech High,rfep_only,-11.6,-20.7,9.1,San Diego
+111064,76471,SBC - High Tech High,ses_disad,-15.7,-21.1,5.4,San Diego
+111065,76471,SBC - High Tech High,disabilities,-63.8,-57.5,-6.2,San Diego
+111066,76471,SBC - High Tech High,white,38.6,35.5,3.1,San Diego
 111150,76851,Bonsall Unified,african_american,6.7,2.1,4.6,San Diego
 111151,76851,Bonsall Unified,american_indian,-55.0,-36.8,-18.3,San Diego
 111152,76851,Bonsall Unified,all_students,26.7,26.7,0.0,San Diego
@@ -11208,6 +11224,38 @@
 133463,70581,Vallejo City Unified,ses_disad,-67.0,-70.5,3.5,Solano
 133464,70581,Vallejo City Unified,disabilities,-131.8,-135.6,3.8,Solano
 133465,70581,Vallejo City Unified,white,-41.8,-40.1,-1.7,Solano
+133898,40246,Petaluma City Schools,african_american,-0.7,-18.3,17.6,Sonoma
+133899,40246,Petaluma City Schools,american_indian,-18.1,7.4,-25.4,Sonoma
+133900,40246,Petaluma City Schools,all_students,18.0,18.7,-0.7,Sonoma
+133901,40246,Petaluma City Schools,asian,56.9,62.6,-5.7,Sonoma
+133902,40246,Petaluma City Schools,english_learners,-45.8,-44.9,-0.9,Sonoma
+133903,40246,Petaluma City Schools,english_learners_only,-89.7,-85.2,-4.6,Sonoma
+133904,40246,Petaluma City Schools,english_only,36.9,38.2,-1.3,Sonoma
+133905,40246,Petaluma City Schools,filipino,56.7,54.7,2.0,Sonoma
+133906,40246,Petaluma City Schools,foster_youth,-51.3,,,Sonoma
+133907,40246,Petaluma City Schools,hispanic,-21.1,-22.9,1.8,Sonoma
+133908,40246,Petaluma City Schools,homeless_youth,-45.8,-43.5,-2.3,Sonoma
+133909,40246,Petaluma City Schools,multiple_races,49.5,45.5,4.0,Sonoma
+133910,40246,Petaluma City Schools,pacific_islander,,26.8,,Sonoma
+133911,40246,Petaluma City Schools,rfep_only,-6.2,2.0,-8.2,Sonoma
+133912,40246,Petaluma City Schools,ses_disad,-24.6,-24.0,-0.5,Sonoma
+133913,40246,Petaluma City Schools,disabilities,-76.9,-76.9,0.0,Sonoma
+133914,40246,Petaluma City Schools,white,39.5,41.0,-1.5,Sonoma
+134173,40253,Santa Rosa City Schools,african_american,,-53.8,,Sonoma
+134174,40253,Santa Rosa City Schools,american_indian,,-56.9,,Sonoma
+134175,40253,Santa Rosa City Schools,all_students,,-24.5,,Sonoma
+134176,40253,Santa Rosa City Schools,asian,,44.3,,Sonoma
+134177,40253,Santa Rosa City Schools,english_learners,,-75.1,,Sonoma
+134178,40253,Santa Rosa City Schools,english_learners_only,,-114.1,,Sonoma
+134179,40253,Santa Rosa City Schools,english_only,,7.4,,Sonoma
+134180,40253,Santa Rosa City Schools,filipino,,31.5,,Sonoma
+134181,40253,Santa Rosa City Schools,foster_youth,,-67.4,,Sonoma
+134182,40253,Santa Rosa City Schools,hispanic,,-58.9,,Sonoma
+134183,40253,Santa Rosa City Schools,homeless_youth,,-110.6,,Sonoma
+134184,40253,Santa Rosa City Schools,multiple_races,,11.4,,Sonoma
+134185,40253,Santa Rosa City Schools,ses_disad,,-60.0,,Sonoma
+134186,40253,Santa Rosa City Schools,disabilities,,-122.8,,Sonoma
+134187,40253,Santa Rosa City Schools,white,,20.8,,Sonoma
 134327,70599,Alexander Valley Union Elementary,all_students,37.9,15.3,22.6,Sonoma
 134328,70599,Alexander Valley Union Elementary,english_learners,17.0,-19.1,36.1,Sonoma
 134329,70599,Alexander Valley Union Elementary,english_learners_only,-3.0,-58.3,55.3,Sonoma
