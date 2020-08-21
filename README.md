@@ -32,3 +32,19 @@ git checkout output?
 >
 >`M       rdd.ipynb`
 
+Multiple pairings vs unique pairing.
+student's environment vs broader neighboring enviornment.
+stable vs stable neighborhoods, turnover
+
+
+to do:
+histogram/density
+
+Spatial autocorrelation tests - is the distribution random in space?
+build weight structure - defines whos a neighbor of who
+
+pandas pivot! 
+
+import to env
+pysal 
+legendgram
