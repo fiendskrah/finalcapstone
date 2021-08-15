@@ -2,7 +2,7 @@
 
 ## Overview
 
-**This repository is intended to serve as a guide and reference sheet for how to use Python for public policy analysis.** The project obtains data and performs a number of operations commonly needed to clean data. These steps are critical to public policy anlysis which often includes imperfect government data and the people responsible for performing these analyses could benefit greatly from the incorporation of computational scripting into their workflows.  
+The project obtains data and performs a number of operations commonly needed to clean data. These steps are critical to public policy anlysis which often includes imperfect government data and the people responsible for performing these analyses could benefit greatly from the incorporation of computational scripting into their workflows.  
 
 This project also runs tests of statistical inference to determine causal relationships between variables in a traditional policy analysis framework, but also by considering the spatial distribution of the variables. The jupyter notebooks that make up this repository, when consumed linearly, should both perform and document a complete policy analysis in a way that can lend to adaptations to other projects.
 
