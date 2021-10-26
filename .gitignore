@@ -1,0 +1,10 @@
+.ipynb_checkpoints
+
+.DS_Store
+.idea
+*.log
+tmp/
+*.py[cod]
+*.egg
+build
+htmlcov
